@@ -27,6 +27,7 @@ a {
 img {
     width: 400px;
     border-radius: 20px;
+    flex-shrink: 1;
 }
 
 button {
@@ -56,6 +57,7 @@ button {
     width: 100%;
     background-color: #1F2937;
     color: white;
+    padding: 8px;
 }
 
 .top-content-header {
@@ -100,6 +102,9 @@ button {
 .middle-second-image-box,
 .middle-third-image-box {
     justify-content: center;
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 70px;
 }
 
